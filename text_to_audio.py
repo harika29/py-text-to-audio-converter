@@ -8,4 +8,5 @@ def text_to_speech(text=""):
 
 
 if __name__ == '__main__':
-    text_to_speech("Hello Harika, How are you doing?")
+    user_input = input("Enter your text: ")
+    text_to_speech(user_input)
